@@ -8,7 +8,8 @@ import { FilesService } from "../files/files.service";
 export class PostsService {
 
   constructor(
-    @InjectModel(Post) private postRepository: typeof Post,
+    @InjectModel(Post)
+    private postRepository: typeof Post,
     private fileService: FilesService
   ) {}
 
