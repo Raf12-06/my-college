@@ -42,7 +42,7 @@ import * as path from 'path';
     PostsModule,
     FilesModule
   ],
-  controllers: [  ],
-  providers: [  ],
+  controllers: [ ],
+  providers: [ ],
 })
 export class AppModule {}
